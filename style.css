@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    background-image: url('images/bg-header-desktop.png');
+    background-repeat: no-repeat;
+    font-family: "Bai Jamjuree", sans-serif;
+    font-size: 1.125em;
+    /*overflow-x: hidden;   /*remove the horizontal scrollbar*/
+}
+
+
+
+.logo {
+    display: block;
+    margin-left: 35em;
+    margin-right: auto;
+    margin-top: 2em;
+    width: 8%;
+}
+
+section h1 {
+    text-align: center;
+    margin-top: 1em;
+   
+}
+
+.head {
+    text-align: center;
+}
+
+section p {
+    /*text-align: center;*/
+    color: hsl(201, 11%, 66%);
+    margin-top: 1em;
+}
+
+.snippets p {
+    text-align: center;
+}
+
+.access p {
+    text-align: center;
+}
+
+.work p {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 2em;
+    
+
+}
+
+.ios {
+    margin-right: 1em;
+    width: 13em;
+    padding: 0.9375em;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(171, 66%, 44%);
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 2px 1px hsl(171, 76%, 34%);
+}
+.mac {
+    margin-left: 1em;
+    width: 12em;
+    padding: 0.9375em;
+    border-radius: 30px;
+    border: none;
+    background-color: hsl(233, 100%, 69%);
+    color: white;
+    cursor: pointer;
+    box-shadow:3px 2px 1px hsl(233, 89%, 65%);
+}
+
+
+.snippets {
+    margin-top: 5em;
+}
+
+.computer {
+    margin-top: 5em;
+    margin-left: -1.5em;
+}
+
+
+/* section from the right side*/
+
+.aside {
+    width: 100%;
+    /*position: absolute;*/
+    margin-right: -9em;
+    margin-top: -26em;
+    
+}
+
+
+
+h3 {
+    margin-left: 42em;
+}
+
+ span {
+    margin-top: 1em;
+    margin-left: 49.2em;
+    color: hsl(201, 11%, 66%);
+    display: block;
+    line-height: 1.6em;
+ }
+
+ .sync h3 {
+    margin-top: 1em;
+    
+ }
+
+ .history h3 {
+    margin-top: 1em;
+ }
+
+/*STOPS HERE*/
+
+.access {
+    margin-top: 15em;
+}
+
+.device {
+    margin-top: 4em;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+/*second container*/
+.container2 {
+    width: 95%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.tools {
+    margin-top: 95px;
+}
+/*to get this section tools to float inline*/
+.tools .lists {
+    float: left;
+    width: 35%;
+    padding: 10px;
+    text-align: center;
+    
+}
+.tools .plain {
+    float: left; 
+    width: 35%;
+    padding: 10px;
+    text-align: center;
+}
+
+.tools .preview {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    text-align: center;
+}
+
+h6 {
+    margin-top: 20px;
+    font-size: 18px;
+}
+
+.lists p {
+    line-height: 1.7;
+}
+
+.plain p {
+    line-height: 1.7;
+}
+
+.preview p {
+    line-height: 1.7;
+}
+
+/*to put items in a row*/
+
+.companies ul {
+    display: flex;
+    margin-top: 90px;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+.clip {
+    margin-top: 100px;
+}
+
+
+.clip p {
+    text-align: center;
+}
+
+footer {
+    margin-top: 95px;
+    width: 100%;
+    background-color: hsl(0, 0%, 95%);
+    display: grid;
+    grid-template-columns: repeat(5, 300px);
+    grid-template-rows: repeat(2, 100px);
+    
+}
+
+.foot .small {
+    width: 50px;
+    height: 50px;
+    margin: 40px 70px;
+}
+
+footer ul {
+    list-style: none;
+}
+
+ul li {
+    display: inline-block;
+    margin-top: 35px;
+}
+
+.navigations {
+    display: grid;
+    grid-template-columns: repeat(6, 240px);
+    grid-template-rows: repeat(2, 100px);
+}
+
+/*FAQ*/
+
+.support1 {
+    grid-column: 1 / 2;
+    grid-row: 1;
+    
+}
+
+/*contact us*/
+
+.support2 {
+    grid-column: 1 /2;
+    grid-row: 2;
+    margin-top: -15px;
+}
+
+/*private policy*/
+
+.support3 {
+    grid-column: 2 / 3;
+    grid-row: 1;
+}
+
+/*press kit*/
+
+.support4 {
+    grid-column: 2 / 2;
+    grid-row: 2;
+    margin-top: -10px;
+}
+/*install guide*/
+
+.support5 {
+    grid-column: 3 / 3;
+    grid-row: 1;
+    
+
+}
+
+li:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+.social_links {
+    margin-top: 35px;
+    grid-column-start: 5;
+    
+}
+
+.social_links i {
+    margin-left: 15px;
+    width: 15px;
+}
+
+.social_links i:hover {
+    color: hsl(171, 66%, 44%);
+    cursor: pointer;
+}
+
+
+
+.attribution {
+    margin-top: 15em;
+    text-align: center;
+}
+
+@media only screen and (max-width: 480px){
+    body {
+        background-image: url(images/bg-header-mobile.png);
+        background-repeat: no-repeat;
+        background-size:100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .logo {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80px;
+    }
+
+    section h1 {
+        text-align: center;
+        margin-top: 35px;
+        margin-left: 55px;
+        margin-right: 45px;
+    }
+
+    section p {
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        line-height: 1.5;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        /*margin-left: 60px;*/
+        /*margin-right: auto;*/
+        
+    }
+    .ios {
+        width: 20em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .mac {
+        width: 20em;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+
+    .snippets {
+        margin-top: 220px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .snippets p {
+        text-align: center;
+        margin-left: 15px;
+        margin-right: 15px;
+        line-height: 1.5;
+        font-size: 16px;
+        
+    }
+
+    .computer {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 17em;
+
+    }
+
+    .aside  {
+         
+        
+        margin-left: -39em;
+        /*position: absolute;*/
+        margin-top: 10em;
+         
+        
+    }
+
+    
+
+    .quick h3 {
+        width:100%;
+
+        
+    }
+
+    .aside span{
+        width: 45%;
+        text-align: center;
+        
+        
+    }
+
+    .access {
+        margin-top: 55em;
+        
+    }
+
+    
+
+    .container2 {
+        
+        /*align-content: center;*/
+        width: 80%;
+    }
+
+    .tools {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .tools .lists {
+        width: 95%;
+        /*flex-direction: column;*/
+        /*justify-content: center;*/   
+    }
+
+    .tools .plain {
+        margin-top: 20px;
+        width: 95%;
+    }
+
+    .tools .preview {
+        margin-top: 20px;
+        width: 95%;
+    }
+   
+    .companies ul {
+        display: flex;
+        margin-top: 90px;
+        margin-left: 135px;
+        margin-right: auto;
+        flex-direction: column;
+        list-style-type: none;
+        align-content: center;
+        justify-content: center;
+        line-height: 4.5;
+    }    
+   
+    .clip {
+        width: 90%;
+    }
+
+    .footer{
+        height: 100vh;
+    }
+
+    .small {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    
+
+
+
+
+
+}
